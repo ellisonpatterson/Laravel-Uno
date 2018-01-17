@@ -1,0 +1,58 @@
+.available-games
+{
+    height: 100px;
+
+    & li
+    {
+        margin-left: 3px;
+    }
+}
+
+.game-cards
+{
+    height: 115px;
+
+    & .col
+    {
+        height: 100px;
+
+        & .game-card
+        {
+            height: 100px;
+        }
+    }
+}
+
+.deck
+{
+    height: 170px;
+
+    & .game-card
+    {
+        @extend .deck;
+    }
+}
+
+.game-bar
+{
+    padding: 10px;
+    height: 52px;
+
+    & .status
+    {
+        text-align: left;
+    }
+
+    & .action
+    {
+        text-align: right;
+    }
+}
+
+.players
+{
+    & .player svg
+    {
+        height: 45px;
+    }
+}

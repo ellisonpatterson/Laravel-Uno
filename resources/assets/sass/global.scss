@@ -1,0 +1,92 @@
+html,
+body
+{
+    height: 100%;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+@media (max-width: 992px)
+{
+    body
+    {
+        overflow: auto;
+    }
+}
+
+.flex-grow
+{
+    flex-grow: 1;
+}
+
+.side-wrapper
+{
+    overflow: hidden;
+}
+
+.bg-lightish
+{
+    background-color: #e4e4e4 !important;
+}
+
+.bg-forfeited
+{
+    background-color: rgba(215, 44, 44, 0.2);
+}
+
+main,
+.container,
+.container-fluid,
+.container > .row,
+.container-fluid > .row,
+[class^="col-"],
+[class*=" col-"]
+{
+    height: 100%;
+}
+
+@media (max-width: 992px)
+{
+    main,
+    .container,
+    .container-fluid,
+    .container > .row,
+    .container-fluid > .row,
+    [class^="col-"],
+    [class*=" col-"]
+    {
+        height: auto;
+    }
+}
+
+main
+{
+    padding-top: 54px;
+}
+
+.bg-0
+{
+    background-color: transparent !important;
+}
+
+a.no-hover,
+a.no-hover:hover
+{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.avatar-s
+{
+    width: 25px;
+    height: 25px;
+}
+
+.avatar-m
+{
+    width: 42px;
+    height: 42px;
+}
